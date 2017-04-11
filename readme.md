@@ -1,7 +1,7 @@
 SPA Prerender
 ===
 
-This SPA pre-render base on [prender-spa-plugin][][](https://github.com/chrisvfritz/prerender-spa-plugin), support multiple SPA pre-render
+This SPA pre-render base on [prender-spa-plugin](https://github.com/chrisvfritz/prerender-spa-plugin), support multiple SPA pre-render
 
 
 ```js
