@@ -15,7 +15,7 @@ SPAPrerender.prototype.build = function () {
     self.routes.map(function (route) {
       var outputPath = Path.join('/', Path.parse(route.entry).name, route.path)
       return new Promise(function (resolve, reject) {
-        compileToHTML(self.staticDir, route.entry, outputPath, self.options, function (prerenderedHTML) {
+        compileToHTML(self.staticDir, route.entry, route.path, self.options, function (prerenderedHTML) {
           if (self.options.postProcessHtml) {
             prerenderedHTML = self.options.postProcessHtml({
               html: prerenderedHTML,
