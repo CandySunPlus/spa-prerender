@@ -1,6 +1,6 @@
 {
   "name": "spa-prerender",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prerenders static HTML in a single-page application.",
   "main": "index.js",
   "author": "NikSun",
